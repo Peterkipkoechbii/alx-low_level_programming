@@ -6,7 +6,7 @@
 
 /**
  * main -print number is zero, positive or negative
- * return 0
+ * return: success
 */
 
 int  main(void)
