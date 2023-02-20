@@ -1,22 +1,17 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
 
 /**
- *  more headers goes there
- * betty style doc for function main goes there 
+ * main - print all strings from 0 to 9
+ * Return: Always 0
 */
 
 int main(void)
-
 {
-	int i;
+int i;
 
-	for (i = 0; i < 10; i++)
-        printf("%d", i);
-	printf("\n");
+for (i = 0; i < 10; i++)
+printf("%d", i);
 
-	return (0);
+printf("\n");
+return (0);
 }
