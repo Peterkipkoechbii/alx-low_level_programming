@@ -1,27 +1,20 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
 
 /**
- * main -entry point
- * return 0
+ * main - prints alpha in lower
+ * followed by a new line, except q and e
+ * Return: Always 0
 */
 
 int main(void)
+{
+char low;
 
-{ 
-	char e, low, q;
-
-	e = 'e';
-	q = 'q';
-	 
-	for (low = 'a'; low <= 'z'; low++)
-	{
-	if (low != e && low !=q)
-	putchar(low);
-	}
-	putchar('\n');
-	return (0);
+for (low = 'a'; low <= 'z'; low++)
+{
+if (low != e && low != q)
+putchar(low);
+}
+putchar('\n');
+return (0);
 }
