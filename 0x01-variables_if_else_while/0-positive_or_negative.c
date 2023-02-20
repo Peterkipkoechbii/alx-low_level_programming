@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 /**
- * more headers goes there
- * betty style doc for function main goes there
+ * main -print number is zero, positive or negative
+ * return 0
 */
 
 int main(void)
