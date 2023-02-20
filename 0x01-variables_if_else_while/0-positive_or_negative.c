@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * main -print number is zero, positive or negative
+ * main - print number is zero, positive or negative
  * return: success
 */
 
@@ -16,7 +16,7 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-/* your code goes there */
+/* your code goes here */
 
 if (n > 0)
 {
@@ -31,4 +31,6 @@ else
 printf("%d is negative\n", n);
 }
 return (0);
+/* return: end of the code */
+
 }
