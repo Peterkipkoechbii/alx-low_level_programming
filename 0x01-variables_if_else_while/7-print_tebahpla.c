@@ -5,18 +5,17 @@
 #include <stdio.h>
 
 /**
- * more headers goes there
- * betty style doc for function main goes there 
+ * main - print alpha in reverse
+ * Return: Always 0
 */
 
 int main(void)
-
 {
-             char  low;
+char  low;
 
-	     for (low = 'z'; low >= 'a'; low--)
-             putchar(low);
-	     putchar('\n');
+for (low = 'z'; low >= 'a'; low--)
+putchar(low);
+putchar('\n');
 
-	     return (0);
+return (0);
 }
