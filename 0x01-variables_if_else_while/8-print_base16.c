@@ -5,23 +5,21 @@
 #include <stdio.h>
 
 /**
- * more headers goes there
- * betty style doc for function main goes there 
+ * main - printthe number in base 16
+ * Return: Always 0
 */
 
 int main(void)
-
 {
-	int d;
-	char low;
+int d;
+char low;
 
-	for (d = '0'; d <= '9'; d++);
-	putchar(d);
+for (d = '0'; d <= '9'; d++)
+putchar(d);
 
-	for (low = 'a'; low <= 'f'; low++);
-	putchar(low);
-	putchar('\n');
+for (low = 'a'; low <= 'f'; low++)
+putchar(low);
 
-	return (0);
+putchar('\n');
+return (0);
 }
-	
