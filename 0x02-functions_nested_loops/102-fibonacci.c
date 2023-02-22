@@ -24,6 +24,4 @@ printf(". %ld", k);
 printf("\n");
 return (0);
 }
-%ld\n", sum);
-return (0);
-}
+
