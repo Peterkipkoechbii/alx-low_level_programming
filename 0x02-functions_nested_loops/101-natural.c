@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 /**
- * main - prints sum of all miltiples of 3 0r 5 upto 1024
+ * main - prints sum of all miltiples of 3 0r 5 up to 1024
  * Return: Always 0
 */
 int main(void)
