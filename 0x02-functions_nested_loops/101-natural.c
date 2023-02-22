@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * main - prints sum of all miltiples of 3 0r 5 upto 1024
