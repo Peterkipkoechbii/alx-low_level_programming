@@ -2,7 +2,7 @@
 
 /**
  * main - prints sum of all miltiples of 3 0r 5 up to 1024
- * Return: Always 0
+ * Return: Always Success
 */
 int main(void)
 {
