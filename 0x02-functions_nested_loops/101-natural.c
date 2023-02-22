@@ -15,6 +15,6 @@ z += i;
 }
 i++;
 }
-printf("%ld/n", z);
+printf("%d/n", z);
 return (0);
 }
