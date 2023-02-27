@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * swap_int - swaps the  value of two integers
+ * swap_int - swaps the  values of two integers
  * @a: value to be swapped
  * @b: value to be swapped
  * Return: Always 0
